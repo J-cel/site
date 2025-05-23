@@ -15,7 +15,7 @@
         <Nav>
             <ul><!--Lista não ordenada para link Ou seja topicos-->
                 <li><a href="#Sobre Mim">Sobre Mim</a></li><!--li Topico-->
-                 <li><a href="#Projetos">Projetos</a></li><!--li Topico-->
+                <li><a href="#Projetos">Projetos</a></li><!--li Topico-->
                 <li><a href="#Contato">Contato</a></li><!--li Topico-->
             </ul>
 
@@ -28,7 +28,7 @@
 
         <article><!-- artigo-->
             <p><!-- Paragrafo-->
-                ola sou o Jeovani, sou um desenvolverdor web, Adicionado mais um texto 
+                ola sou o Jeovani, sou um desenvolverdor web, Adicionado mais um texto
             </p>
 
         </article>
@@ -60,10 +60,40 @@
                 <!--Contato-->
                 <section id="Contato">
                     <p>Tem um projeto em mente? Entre em contato.</p>
-                    <address><!-- Endereço de email, telefone etc-->
+                    <!---
+                    <address><!-- Endereço de email, telefone etc
                         Email: <a href="mailto:jeovanipaulo67@gmail.com">jeovanipaulo67@gmail.com</a><br>
                         Telefone: <a href="tel:(47) 98908-7766">(47) 98908-7766</a>
-                    </address>
+                      
+                    </address> -->
+
+                    <!-- Fórmulario-->
+                    <form action=""></form> <!-- Serve para linkar ao JavaScript-->
+                    <label for="Nome"> Nome: </label>
+                    <input type="text" id="Nome"
+                        name="Nome"><!-- Input coletar informações do usuário através de um formulário-->
+                    <br>
+                    <br>
+                    <label for="E-mail">E-mail:</label>
+                    <input type="email" id="E-mail" name="E-mail">
+                    <br>
+                    <br><label for="Telefone">Telefone:</label>
+                    <input type="telefone" id="Telefone" name="Telefone">
+                    <br>
+                    <br>
+                    <label for="Assunto">Assunto</label>
+                    <select name="Assunto" id="Assunto">
+
+                        <option value="Orcamento">Orcamento</option>
+                        <option value="Duvidas">Duvidas</option>
+                        <option value="Outros">Outros</option>
+
+                    </select>
+
+                    <label for="Mensagem ">Mensagem</label>
+    
+             <textarea name="Mensagem" id="Mensagem" cols="30" rows="10"></textarea>
+
 
                 </section>
             </footer>
