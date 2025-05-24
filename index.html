@@ -70,12 +70,12 @@
                     <!-- Fórmulario-->
                     <form action=""></form> <!-- Serve para linkar ao JavaScript-->
                     <label for="Nome"> Nome: </label>
-                    <input type="text" id="Nome"
-                        name="Nome"><!-- Input coletar informações do usuário através de um formulário-->
+                    <input type="text" id="Nome" name="Nome"
+                        required><!-- Input coletar informações do usuário através de um formulário-->
                     <br>
                     <br>
                     <label for="E-mail">E-mail:</label>
-                    <input type="email" id="E-mail" name="E-mail">
+                    <input type="email" id="E-mail" name="E-mail" required>
                     <br>
                     <br><label for="Telefone">Telefone:</label>
                     <input type="telefone" id="Telefone" name="Telefone">
@@ -91,8 +91,9 @@
                     </select>
 
                     <label for="Mensagem ">Mensagem</label>
-    
-             <textarea name="Mensagem" id="Mensagem" cols="30" rows="10"></textarea>
+
+                    <textarea name="Mensagem" id="Mensagem" cols="30" rows="10" required></textarea>
+                    <input type="checkbox" id="inscricao" name="inscricao">
 
 
                 </section>
